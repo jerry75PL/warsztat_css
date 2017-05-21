@@ -5,7 +5,7 @@ body {
 
 nav#menu {
     text-align: center;
-    background-color: #000;
+    background-color: #222;
 }
 
 nav#menu>ul {
@@ -58,5 +58,24 @@ section#about h2#about-header{
 section#about p.about-content{
     text-align: center
 }
-
-
+footer#contact{
+    padding: 30px 50px;
+    background-color: #222;
+}
+footer#contact h2#contact-header{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;    
+}
+footer#contact address#contact-content{
+    text-align: center;
+    color: #fff;
+    font-style: normal;
+}
+footer#contact address#contact-content a{
+    color: #fff;    
+}
+footer#contact address#contact-content a:hover{
+    color: #999;   
+}
