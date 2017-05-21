@@ -1,0 +1,26 @@
+body {
+    margin: 0;    
+    font-family: "Lato", sans-serif;
+}
+
+nav#menu {
+    text-align: center;
+    background-color: #000;
+}
+
+nav#menu>ul {
+    margin: 0;
+}
+nav#menu>ul>li.menu-item {
+    display: inline-block;
+    padding: 25px;
+    list-style: none;    
+}
+nav#menu>ul>li.menu-item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav#menu>ul>li.menu-item a:hover {
+    color: #999;
+}
